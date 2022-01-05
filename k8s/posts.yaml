@@ -5,4 +5,5 @@ metadata:
 spec:
   containers:
     - name: posts
-      image: developer0/posts:0.0.1
+      image: developer0-p/posts:0.0.1
+      imagePullPolicy: Never
